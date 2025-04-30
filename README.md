@@ -26,7 +26,6 @@ Key inventory metrics were calculated to assess performance:
 •	Inventory Turnover Rate: Used to identify slow-moving and fast-moving products
 •	Stock level categorization: Grouping products by low, mid, and high stock levels
 •	ABC Analysis: Used to categorize products
-
 ## 5.	Geographical Distribution Analysis
 The geographical spread of warehouses across the 10 countries was mapped using latitude and longitude data to observe the distribution patterns and potential logistical inefficiencies.
 ## 6.	Tools Used 
@@ -35,3 +34,21 @@ The analysis was conducted using:
 •	Excel
 •	Basic statistical functions
 •	Data visualization for better insight communication
+# ANALYSIS AND RESULT
+## 1.	Stock Quantity Distribution 
+An initial exploratory analysis of the stock_quantity column revealed that the majority of products fall into the mid stock level, accounting for 40.42% of all items. However, when analyzing the total quantity of stock across levels, the high stock level holds the largest volume — with approximately 1,267,600 units, despite only 29.76% of products belonging to this category.
+In contrast, 28.83% of products are categorized as low stock, representing a total of 227,697 units. Notably, 262 products within this group are considered understocked (stock quantity < reorder point), suggesting a potential risk of stockouts for those items.
+
+ 
+These findings suggest that the company may be overstocking products with potentially lower demand, which can lead to increased storage costs and a higher risk of obsolescence. On the other hand, the understocking observed in the low stock category highlights the need for tighter inventory control and more responsive restocking mechanisms for critical items.
+
+## 2.	Inventory Turnover Rate
+The inventory turnover rate was assessed across product categories by analyzing stock quantity relative to lead time (in days). This metric estimates how many units are held in stock per day of replenishment time, offering insight into how efficiently each category moves inventory.
+
+ 
+
+Most product categories recorded a turnover rate between 62 and 75 units per day, with an average of 68.68 units/day.
+
+•	Clothing had the highest turnover rate at 74.25, indicating that it has the most efficient stock movement relative to lead time. This suggests that clothing products are in higher demand or are restocked more responsively — warranting more frequent reordering to avoid stockouts.
+•	Office Supplies had the lowest turnover rate at 62.37, making it the least efficient category in terms of inventory movement. This may require a review of demand forecasting or stocking strategy for this group.
+
