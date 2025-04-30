@@ -5,7 +5,7 @@ This dataset was obtained from the FP20 Data Challenge site for the (April editi
 There are 50 distinct product suppliers, each with a unique identifier and the inventory is distributed across 5,000 warehouse locations in 10 European countries: Austria, Belgium, France, Germany, Italy, Netherlands, Poland, Spain, Sweden, and the United Kingdom. Each ware is geotagged with its latitude and longitude. For restocking purposes, the dataset includes a minimum reorder quantity per product. The ‘Status’ column indicates whether a product is currently active or has been discontinued, and an ‘Entry_Date’ field specifies when each product was first added to the system. 
 # METHODLOGY
 The analysis of this dataset followed a structured workflow, consisting of the following key steps:
-** 1.	Data Understanding **
+## 1.	Data Understanding 
 The dataset was first explored to understand the structure, column definitions, and the overall scope. Basic descriptive statistics Such as Average and standard deviation were used to get an overview of stock quantities, product categories, price distribution, and supplier distribution. 
 ## 2.	Date Preparation
 The dataset required minimal cleaning. The data was generally well-structured and consistent, with no major issues such as missing values, duplicate entries, or formatting errors. Minor adjustments included:
