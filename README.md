@@ -115,5 +115,5 @@ Based on the insights uncovered in this inventory analysis, the following strate
 7.	Monitor High-Value Product Performance
 •	Regularly assess the turnover rate of high-priced items to ensure capital is not tied up in low-demand stock.
 •	Balance premium product availability with cost control measures like dynamic safety stock.
-
+Dashboard.png
 
