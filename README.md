@@ -71,8 +71,10 @@ This even spread suggests that inventory is strategically allocated across regio
 
 5.	Restocking and Lead Time
 The average lead time across all suppliers was approximately 14.96 days, indicating a typical two-week wait between order and fulfillment. However, some supplier exhibited notable variance:
+
 - SUP041, SUP020, and SUP032 had an average lead time of 17 days 
 - SUP002 followed closely at 16 days
+  
 These inconsistencies can complicate reorder planning and increase the risk of stockouts or inventory imbalances, especially for fast-moving products.
 In terms of restocking activity, the month of May recorded the highest number of restocks, with 462 restock events totaling 245,261 units. October followed closely with 457 restocks and 227,802 units.
 This trend suggests a seasonal restocking pattern, with the spring months (March–May) seeing the highest restocking volumes, likely due to increased demand or post-winter 	inventory rebuilding. A secondary peak occurs in the fall months (September–November), potentially preparing for year-end demand surges.
