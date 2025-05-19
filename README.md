@@ -36,7 +36,7 @@ The geographical spread of warehouses across the 10 countries was mapped using l
    - Excel
    - Basic statistical functions
   - Data visualization for better insight communication
-## Analysis AND Result
+## Analysis and Result
 1.	Stock Quantity Distribution: 
 An initial exploratory analysis of the stock_quantity column revealed that the majority of products fall into the mid stock level, accounting for 40.42% of all items. However, when analyzing the total quantity of stock across levels, the high stock level holds the largest volume — with approximately 1,267,600 units, despite only 29.76% of products belonging to this category.
 In contrast, 28.83% of products are categorized as low stock, representing a total of 227,697 units. Notably, 262 products within this group are considered understocked (stock quantity < reorder point), suggesting a potential risk of stockouts for those items.
