@@ -41,13 +41,14 @@ The geographical spread of warehouses across the 10 countries was mapped using l
 An initial exploratory analysis of the stock_quantity column revealed that the majority of products fall into the mid stock level, accounting for 40.42% of all items. However, when analyzing the total quantity of stock across levels, the high stock level holds the largest volume — with approximately 1,267,600 units, despite only 29.76% of products belonging to this category.
 In contrast, 28.83% of products are categorized as low stock, representing a total of 227,697 units. Notably, 262 products within this group are considered understocked (stock quantity < reorder point), suggesting a potential risk of stockouts for those items.
 
- 
+ ![Stock qy](https://github.com/user-attachments/assets/7cbfd982-b53f-4cbe-854d-35fc7c0aff6e)
+
 These findings suggest that the company may be overstocking products with potentially lower demand, which can lead to increased storage costs and a higher risk of obsolescence. On the other hand, the understocking observed in the low stock category highlights the need for tighter inventory control and more responsive restocking mechanisms for critical items.
 
  2.	Inventory Turnover Rate:
 The inventory turnover rate was assessed across product categories by analyzing stock quantity relative to lead time (in days). This metric estimates how many units are held in stock per day of replenishment time, offering insight into how efficiently each category moves inventory.
 
- 
+![Turnover](https://github.com/user-attachments/assets/9bc9898d-0787-431b-aac2-5733dfca4063)
 
 Most product categories recorded a turnover rate between 62 and 75 units per day, with an average of 68.68 units/day.
 
@@ -59,14 +60,19 @@ An ABC analysis was conducted to classify products based on their contribution t
 - Group B (moderate value): 24% of products
 - Group C (low-impact products, largest number of products): 41.56%
 
- 
+![ABC Class](https://github.com/user-attachments/assets/d6d2fb83-5485-4cf4-a4f2-066bd988b941)
+
 This distribution highlights that Group A products, while fewer in number, contribute the most to inventory value and should be monitored closely with tighter controls and forecasting. Group B products require moderate oversight, as they play a balanced role in value and quantity. Group C products, which make up the largest share by count but the lowest by value, may benefit from simplified management strategies, such as bulk handling or periodic reviews, to reduce operational costs.
 
 4.	Geographic Distribution:
 The inventory is distributed across 5,000 warehouse locations in 10 European Countries. The distribution of stock is relatively balanced, with Germany holding the largest share at 11.05%, followed closely by Spain (10.59%), Belgium (10.46%), Poland (10.44%) and United Kingdom (10.04%). 
   
 
+ ![Tree map](https://github.com/user-attachments/assets/4030ac63-85a9-429a-aaee-d9d228017c3b)
+
  
+![Map](https://github.com/user-attachments/assets/3ab3386c-9cfe-40e9-8093-98b8b51feb6c)
+
 This even spread suggests that inventory is strategically allocated across region, likely to minimize lead times and optimize fulfillment. The fairly uniform distribution may also reflect an attempt to keep warehouses in proximity to major markets or customer hubs, ensuring product availability and reducing shipping costs. 
 
 5.	Restocking and Lead Time
@@ -78,14 +84,22 @@ The average lead time across all suppliers was approximately 14.96 days, indicat
 These inconsistencies can complicate reorder planning and increase the risk of stockouts or inventory imbalances, especially for fast-moving products.
 In terms of restocking activity, the month of May recorded the highest number of restocks, with 462 restock events totaling 245,261 units. October followed closely with 457 restocks and 227,802 units.
 This trend suggests a seasonal restocking pattern, with the spring months (March–May) seeing the highest restocking volumes, likely due to increased demand or post-winter 	inventory rebuilding. A secondary peak occurs in the fall months (September–November), potentially preparing for year-end demand surges.
-	               
-	 
-6.	Cost and Pricing Analysis
+
+![Avg lead time supplier](https://github.com/user-attachments/assets/d6cc4342-1614-4217-b95a-68532bf7900c)
+
+![Seasonal trend](https://github.com/user-attachments/assets/16c2eca4-6ed4-456f-9a79-da15eea86302)
+
+![Restock by month](https://github.com/user-attachments/assets/1521e53a-371b-4fac-b386-8a8d2acef5df)
+
+
+6. Cost and Pricing Analysis
 An analysis of product pricing revealed the top five most expensive items, which span across various categories: Home & Garden, Electronics, Office Supplies, Books, and Clothing. These products command the highest unit prices in the inventory, yet notably, they are maintained at moderate to high stock levels.
  
+![Expensive products](https://github.com/user-attachments/assets/e34d230e-42f5-4e9f-91a4-bb1d566a6091)
 
 This indicates that the company is confident in the turnover potential of these high-value items or considers them strategically important (e.g., premium offerings, customer demand drivers). Maintaining sufficient stock for these items could help ensure availability for high-margin sales and reduce lost revenue from out-of-stock situations.
-At the same time, it's important to monitor whether holding costs for these expensive products are justified by their sales velocity, especially if they are slower-moving. A periodic cost-to-benefit analysis of high-priced SKUs could support better capital allocation.	
+At the same time, it's important to monitor whether holding costs for these expensive products are justified by their sales velocity, especially if they are slower-moving. A periodic cost-to-benefit analysis of high-priced SKUs could support better capital allocation.
+
 ## CONCLUSION
 This inventory analysis provided key insights into the company's operational strengths and areas for optimization. The evaluation of stock levels revealed a concentration of inventory in high-stock categories, suggesting potential overstocking and increased holding costs. Simultaneously, understocked items within the low stock level category highlight risks of stockouts and lost sales opportunities.
 The turnover analysis showed clear differences in efficiency across product categories, with Clothing exhibiting the highest turnover and Office Supplies the lowest — pointing to the need for category-specific replenishment strategies. The ABC classification further emphasized that a relatively small portion of products (Group A) accounts for a significant share of inventory value, warranting focused monitoring and resource allocation.
